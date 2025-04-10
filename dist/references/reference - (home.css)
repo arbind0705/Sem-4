@@ -1,0 +1,144 @@
+/* Background Image Slideshow */
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Info Section (Structured Boxes) */
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.info-box {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Button Section */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* Button Box (Shared Styles) */
+.button-box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Button Shared Styles */
+.button {
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button span {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: opacity 0.3s, text-shadow 0.3s;
+}
+
+/* Boat Button - Blue & Orange */
+.boat {
+    background: linear-gradient(to bottom, #ff9800, #2196F3); /* Sunset to Sea */
+}
+
+.boat:hover {
+    animation: sail 1s infinite alternate ease-in-out;
+}
+
+@keyframes sail {
+    0% { transform: translate(0px, 0px) rotate(0deg); }
+    50% { transform: translate(5px, -5px) rotate(-3deg); }
+    100% { transform: translate(-5px, 5px) rotate(3deg); }
+}
+
+/* Login Button - Dark Grey & Growing Effect */
+.login {
+    background: #555;
+    color: white;
+}
+
+.login:hover .button {
+    transform: scale(1.2);
+}
+
+/* Duck Button - Water Blue & Random Wobble Effect */
+.duck {
+    background: #00BFFF; /* Water Blue */
+}
+
+.duck:hover {
+    animation: floatDuck 0.6s infinite alternate ease-in-out;
+}
+
+@keyframes floatDuck {
+    0% { transform: translateX(-5px); }
+    100% { transform: translateX(5px); }
+}
+
+/* Glow Effect for All Buttons (Text & Box) */
+.button-box:hover {
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+.button-box:hover .button span {
+    opacity: 1;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
+}
+
+/* Destination Table */
+.table-container {
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}

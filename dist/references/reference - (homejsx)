@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Optimization</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js"></script>
+</head>
+<body>
+
+    <!-- Background Image Slideshow -->
+    <div class="background">
+        <img id="bgImage">
+    </div>
+
+    <!-- Info Section (Structured Boxes) -->
+    <div class="info-container">
+        <div class="info-box">
+            <h2>📌 Smart Travel Planning</h2>
+            <p>Plan your trip with AI-driven optimization that considers real-time data, budget constraints, and preferences.</p>
+        </div>
+        <div class="info-box">
+            <h2>🎯 Intelligent Destination Selection</h2>
+            <p>Uses the **Dynamic Knapsack Problem (DKP)** to choose the best places within your budget.</p>
+        </div>
+        <div class="info-box">
+            <h2>🛤️ Optimized Travel Routes</h2>
+            <p>Implements the **Traveling Salesman Problem (TSP)** to arrange destinations in the best sequence, minimizing travel time and costs.</p>
+        </div>
+        <div class="info-box">
+            <h2>📊 Real-Time Data Integration</h2>
+            <p>Fetches live travel costs, ratings, and reviews from APIs like **Google Maps, TripAdvisor, and Skyscanner**.</p>
+        </div>
+    </div>
+
+    <!-- Button Section -->
+    <div class="button-container">
+        <!-- Boat Button (Get Started) -->
+        <div class="button-box boat">
+            <a href="preference.html" class="button">
+                ⛵
+                <span>Get Started</span>
+            </a>
+        </div>
+
+        <!-- Login Button (Profile) -->
+        <div class="button-box login">
+            <a href="profile.html" class="button">
+                👤
+                <span>Profile</span>
+            </a>
+        </div>
+
+        <!-- Duck Button (Lookover - Rubber Duck 🐤) -->
+        <div class="button-box duck">
+            <a href="listpage.html" class="button">
+                🐤
+                <span>Lookover</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Swapping Destination Table -->
+    <div class="table-container">
+        <table id="destinationTable">
+            <tr>
+                <th>Destination</th>
+                <th>Rating (⭐1-5)</th>
+                <th>Budget Needed ($)</th>
+            </tr>
+            <tr>
+                <td>Bali, Indonesia</td>
+                <td>4.8 ⭐</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>Paris, France</td>
+                <td>4.9 ⭐</td>
+                <td>$1500</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

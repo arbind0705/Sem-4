@@ -1,0 +1,3491 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-03-21",
+    "regions": ["Asia", "Europe"],
+    "current_progress": {
+      "completed_countries": ["Japan", "South Korea", "India"],
+      "in_progress": "India - Chennai",
+      "pending": ["Rest of India", "China", "Thailand", "Other Asian Countries", "All European Countries"]
+    }
+  },
+  "destinations": {
+    "asia": {
+      "JPN": {
+        "name": "Japan",
+        "currency": "JPY",
+        "language": ["Japanese", "English"],
+        "cities": {
+          "TKY": {
+            "name": "Tokyo",
+            "description": "Japan's vibrant capital combining tradition and innovation",
+            "places": [
+              {
+                "id": "JPN-TKY-001",
+                "name": "Senso-ji Temple",
+                "category": "Temple",
+                "rating": 4.8,
+                "description": "Tokyo's oldest Buddhist temple, featuring a massive red lantern and historic architecture",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Early morning or evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.7147,
+                  "lng": 139.7966,
+                  "address": "2-3-1 Asakusa, Taito-ku"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Shopping at Nakamise",
+                  "Fortune telling",
+                  "Incense offering"
+                ]
+              },
+              {
+                "id": "JPN-TKY-002",
+                "name": "Meiji Shrine",
+                "category": "Shrine",
+                "rating": 4.7,
+                "description": "A peaceful Shinto shrine surrounded by a dense forest in the heart of Tokyo",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.6762,
+                  "lng": 139.6993,
+                  "address": "1-1 Yoyogikamizonocho, Shibuya-ku"
+                },
+                "activities": [
+                  "Shrine visit",
+                  "Forest walk",
+                  "Traditional ceremonies",
+                  "Wish writing"
+                ]
+              },
+              {
+                "id": "JPN-TKY-003",
+                "name": "Shibuya Crossing",
+                "category": "Landmark",
+                "rating": 4.6,
+                "description": "The world's busiest pedestrian crossing, a symbol of Tokyo's urban energy",
+                "visit_duration": "30 minutes",
+                "best_time_to_visit": "Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.6595,
+                  "lng": 139.7003,
+                  "address": "Shibuya-ku"
+                },
+                "activities": [
+                  "Crossing experience",
+                  "People watching",
+                  "Photography",
+                  "Shopping"
+                ]
+              },
+              {
+                "id": "JPN-TKY-004",
+                "name": "Akihabara Electric Town",
+                "category": "Shopping",
+                "rating": 4.5,
+                "description": "The world's largest electronics and anime district",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6987,
+                  "lng": 139.7732,
+                  "address": "Chiyoda-ku"
+                },
+                "activities": [
+                  "Electronics shopping",
+                  "Anime shopping",
+                  "Maid cafes",
+                  "Arcade gaming"
+                ]
+              },
+              {
+                "id": "JPN-TKY-005",
+                "name": "Tokyo Skytree",
+                "category": "Landmark",
+                "rating": 4.7,
+                "description": "The world's tallest structure, offering panoramic views of Tokyo",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.7100,
+                  "lng": 139.8107,
+                  "address": "1-1-2 Oshiage, Sumida-ku"
+                },
+                "activities": [
+                  "Observation deck",
+                  "Shopping mall",
+                  "Aquarium",
+                  "Restaurants"
+                ]
+              },
+              {
+                "id": "JPN-TKY-006",
+                "name": "Tsukiji Outer Market",
+                "category": "Market",
+                "rating": 4.6,
+                "description": "Famous food market offering fresh seafood and local delicacies",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6650,
+                  "lng": 139.7697,
+                  "address": "4-16-2 Tsukiji, Chuo-ku"
+                },
+                "activities": [
+                  "Food shopping",
+                  "Sushi tasting",
+                  "Local snacks",
+                  "Cooking tools"
+                ]
+              },
+              {
+                "id": "JPN-TKY-007",
+                "name": "Harajuku - Takeshita Street",
+                "category": "Shopping",
+                "rating": 4.4,
+                "description": "Famous street fashion district and youth culture center",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6700,
+                  "lng": 139.6989,
+                  "address": "Shibuya-ku"
+                },
+                "activities": [
+                  "Fashion shopping",
+                  "Crepe tasting",
+                  "People watching",
+                  "Photo spots"
+                ]
+              },
+              {
+                "id": "JPN-TKY-008",
+                "name": "Shinjuku Gyoen National Garden",
+                "category": "Park",
+                "rating": 4.7,
+                "description": "Beautiful garden featuring traditional Japanese, English, and French landscapes",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Spring or Autumn",
+                "price_range": "$",
+                "location": {
+                  "lat": 35.6892,
+                  "lng": 139.7107,
+                  "address": "11 Naitomachi, Shinjuku-ku"
+                },
+                "activities": [
+                  "Cherry blossom viewing",
+                  "Picnicking",
+                  "Garden walking",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-TKY-009",
+                "name": "Roppongi Hills",
+                "category": "Shopping",
+                "rating": 4.5,
+                "description": "Modern complex featuring shopping, art, and observation deck",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 35.6606,
+                  "lng": 139.7290,
+                  "address": "6-10-1 Roppongi, Minato-ku"
+                },
+                "activities": [
+                  "Shopping",
+                  "Art viewing",
+                  "Observation deck",
+                  "Dining"
+                ]
+              },
+              {
+                "id": "JPN-TKY-010",
+                "name": "Ghibli Museum",
+                "category": "Museum",
+                "rating": 4.8,
+                "description": "Interactive museum dedicated to Studio Ghibli's animation works",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6962,
+                  "lng": 139.5708,
+                  "address": "1-1-83 Shimorenjaku, Mitaka-shi"
+                },
+                "activities": [
+                  "Exhibition viewing",
+                  "Short film screening",
+                  "Photo opportunities",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "JPN-TKY-011",
+                "name": "Odaiba",
+                "category": "Entertainment",
+                "rating": 4.4,
+                "description": "Artificial island featuring entertainment complexes and shopping",
+                "visit_duration": "3-4 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6297,
+                  "lng": 139.7787,
+                  "address": "Daiba, Minato-ku"
+                },
+                "activities": [
+                  "Shopping",
+                  "TeamLab Borderless",
+                  "Ferris wheel",
+                  "Beach activities"
+                ]
+              },
+              {
+                "id": "JPN-TKY-012",
+                "name": "Yanaka Ginza",
+                "category": "Shopping",
+                "rating": 4.3,
+                "description": "Traditional shopping street with old Tokyo atmosphere",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$",
+                "location": {
+                  "lat": 35.7272,
+                  "lng": 139.7708,
+                  "address": "Yanaka, Taito-ku"
+                },
+                "activities": [
+                  "Local shopping",
+                  "Street food",
+                  "Traditional atmosphere",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-TKY-013",
+                "name": "Tokyo DisneySea",
+                "category": "Theme Park",
+                "rating": 4.9,
+                "description": "Unique Disney theme park with maritime theme and exclusive attractions",
+                "visit_duration": "Full day",
+                "best_time_to_visit": "Weekday",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 35.6273,
+                  "lng": 139.8847,
+                  "address": "1-13 Maihama, Urayasu-shi"
+                },
+                "activities": [
+                  "Ride attractions",
+                  "Character meet & greet",
+                  "Shows",
+                  "Shopping"
+                ]
+              },
+              {
+                "id": "JPN-TKY-014",
+                "name": "Nakameguro",
+                "category": "Shopping",
+                "rating": 4.5,
+                "description": "Trendy area known for cherry blossoms and boutique shopping",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Spring or Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.6439,
+                  "lng": 139.6989,
+                  "address": "Meguro-ku"
+                },
+                "activities": [
+                  "Cherry blossom viewing",
+                  "Boutique shopping",
+                  "Cafe hopping",
+                  "Photography"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "JPN-TKY-H001",
+                "name": "Mandarin Oriental Tokyo",
+                "rating": 4.9,
+                "stars": 5,
+                "location": {
+                  "lat": 35.6812,
+                  "lng": 139.7671,
+                  "address": "2-1-1 Nihonbashi Muromachi, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 95000,
+                    "peak": 130000,
+                    "off_peak": 85000
+                  },
+                  "deluxe": {
+                    "base": 130000,
+                    "peak": 160000,
+                    "off_peak": 110000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-006", "JPN-TKY-005"]
+              },
+              {
+                "id": "JPN-TKY-H002",
+                "name": "Park Hyatt Tokyo",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 35.6895,
+                  "lng": 139.6917,
+                  "address": "3-7-1-2 Nishi Shinjuku, Shinjuku-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 85000,
+                    "peak": 115000,
+                    "off_peak": 75000
+                  },
+                  "deluxe": {
+                    "base": 115000,
+                    "peak": 145000,
+                    "off_peak": 95000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "New York Bar",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-008", "JPN-TKY-003"]
+              },
+              {
+                "id": "JPN-TKY-H003",
+                "name": "Aman Tokyo",
+                "rating": 4.9,
+                "stars": 5,
+                "location": {
+                  "lat": 35.6812,
+                  "lng": 139.7671,
+                  "address": "The Otemachi Tower, 1-5-6 Otemachi, Chiyoda-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 100000,
+                    "peak": 135000,
+                    "off_peak": 90000
+                  },
+                  "deluxe": {
+                    "base": 135000,
+                    "peak": 165000,
+                    "off_peak": 115000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Aman Spa",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-006", "JPN-TKY-005"]
+              },
+              {
+                "id": "JPN-TKY-H004",
+                "name": "Shinagawa Prince Hotel",
+                "rating": 4.3,
+                "stars": 4,
+                "location": {
+                  "lat": 35.6287,
+                  "lng": 139.7387,
+                  "address": "4-10-30 Takanawa, Minato-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  },
+                  "deluxe": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Indoor Pool",
+                  "Aquarium",
+                  "Bowling Alley",
+                  "Restaurants",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-003", "JPN-TKY-009"]
+              },
+              {
+                "id": "JPN-TKY-H005",
+                "name": "Hotel New Otani",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 35.6812,
+                  "lng": 139.7671,
+                  "address": "4-1 Kioi-cho, Chiyoda-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  },
+                  "deluxe": {
+                    "base": 40000,
+                    "peak": 50000,
+                    "off_peak": 35000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Japanese Garden",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center",
+                  "Shopping Arcade"
+                ],
+                "nearby_places": ["JPN-TKY-006", "JPN-TKY-005"]
+              },
+              {
+                "id": "JPN-TKY-H006",
+                "name": "Ueno Hotel",
+                "rating": 4.2,
+                "stars": 3,
+                "location": {
+                  "lat": 35.7137,
+                  "lng": 139.7733,
+                  "address": "7-2-4 Ueno, Taito-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 15000,
+                    "peak": 25000,
+                    "off_peak": 12000
+                  },
+                  "deluxe": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Vending Machines",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-TKY-001", "JPN-TKY-012"]
+              },
+              {
+                "id": "JPN-TKY-H007",
+                "name": "Shinjuku Capsule Hotel",
+                "rating": 3.8,
+                "stars": 2,
+                "location": {
+                  "lat": 35.6895,
+                  "lng": 139.6917,
+                  "address": "1-2-5 Kabukicho, Shinjuku-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 4000,
+                    "peak": 6000,
+                    "off_peak": 3500
+                  },
+                  "deluxe": {
+                    "base": 6000,
+                    "peak": 8000,
+                    "off_peak": 5000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Public Bath",
+                  "Locker Storage",
+                  "Vending Machines",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-TKY-003", "JPN-TKY-008"]
+              },
+              {
+                "id": "JPN-TKY-H008",
+                "name": "Conrad Tokyo",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 35.6606,
+                  "lng": 139.7290,
+                  "address": "1-9-1 Higashi-Shinbashi, Minato-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 80000,
+                    "peak": 110000,
+                    "off_peak": 70000
+                  },
+                  "deluxe": {
+                    "base": 110000,
+                    "peak": 140000,
+                    "off_peak": 90000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-009", "JPN-TKY-006"]
+              },
+              {
+                "id": "JPN-TKY-H009",
+                "name": "UNIZO Inn Express",
+                "rating": 4.0,
+                "stars": 3,
+                "location": {
+                  "lat": 35.6895,
+                  "lng": 139.6917,
+                  "address": "3-14-1 Shinjuku, Shinjuku-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 12000,
+                    "peak": 18000,
+                    "off_peak": 10000
+                  },
+                  "deluxe": {
+                    "base": 18000,
+                    "peak": 25000,
+                    "off_peak": 15000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Laundry Service",
+                  "Vending Machines",
+                  "24-hour Front Desk",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-TKY-003", "JPN-TKY-008"]
+              },
+              {
+                "id": "JPN-TKY-H010",
+                "name": "Disney Ambassador Hotel",
+                "rating": 4.6,
+                "stars": 4,
+                "location": {
+                  "lat": 35.6273,
+                  "lng": 139.8847,
+                  "address": "1-1-1 Maihama, Urayasu-shi"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 45000,
+                    "peak": 65000,
+                    "off_peak": 40000
+                  },
+                  "deluxe": {
+                    "base": 65000,
+                    "peak": 85000,
+                    "off_peak": 55000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Character Meet & Greet",
+                  "Disney-themed Rooms",
+                  "Multiple Restaurants",
+                  "Disney Store",
+                  "Shuttle Service"
+                ],
+                "nearby_places": ["JPN-TKY-013"]
+              },
+              {
+                "id": "JPN-TKY-H011",
+                "name": "Keio Plaza Hotel",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 35.6895,
+                  "lng": 139.6917,
+                  "address": "2-2-1 Nishi-Shinjuku, Shinjuku-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  },
+                  "deluxe": {
+                    "base": 45000,
+                    "peak": 55000,
+                    "off_peak": 40000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center",
+                  "Shopping Arcade"
+                ],
+                "nearby_places": ["JPN-TKY-003", "JPN-TKY-008"]
+              },
+              {
+                "id": "JPN-TKY-H012",
+                "name": "Asakusa View Hotel",
+                "rating": 4.2,
+                "stars": 3,
+                "location": {
+                  "lat": 35.7137,
+                  "lng": 139.7733,
+                  "address": "3-17-1 Nishiasakusa, Taito-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 18000,
+                    "peak": 28000,
+                    "off_peak": 15000
+                  },
+                  "deluxe": {
+                    "base": 28000,
+                    "peak": 38000,
+                    "off_peak": 25000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Vending Machines",
+                  "24-hour Front Desk",
+                  "Observation Deck"
+                ],
+                "nearby_places": ["JPN-TKY-001", "JPN-TKY-012"]
+              }
+            ]
+          },
+          "OSK": {
+            "name": "Osaka",
+            "description": "Japan's kitchen and entertainment capital",
+            "places": [
+              {
+                "id": "JPN-OSK-001",
+                "name": "Osaka Castle",
+                "category": "Castle",
+                "rating": 4.7,
+                "description": "Historic castle with beautiful gardens and museum",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Spring or Autumn",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "1-1 Osakajo, Chuo-ku"
+                },
+                "activities": [
+                  "Castle tour",
+                  "Museum visit",
+                  "Garden walking",
+                  "Cherry blossom viewing"
+                ]
+              },
+              {
+                "id": "JPN-OSK-002",
+                "name": "Dotonbori",
+                "category": "Entertainment",
+                "rating": 4.6,
+                "description": "Famous entertainment district with neon signs and street food",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.6689,
+                  "lng": 135.5032,
+                  "address": "Chuo-ku"
+                },
+                "activities": [
+                  "Street food tasting",
+                  "Shopping",
+                  "Nightlife",
+                  "Photo spots"
+                ]
+              },
+              {
+                "id": "JPN-OSK-003",
+                "name": "Universal Studios Japan",
+                "category": "Theme Park",
+                "rating": 4.8,
+                "description": "Popular theme park with unique attractions and Nintendo World",
+                "visit_duration": "Full day",
+                "best_time_to_visit": "Weekday",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 34.6656,
+                  "lng": 135.4329,
+                  "address": "2-1-33 Sakurajima, Konohana-ku"
+                },
+                "activities": [
+                  "Ride attractions",
+                  "Nintendo World",
+                  "Harry Potter World",
+                  "Character meet & greet"
+                ]
+              },
+              {
+                "id": "JPN-OSK-004",
+                "name": "Kuromon Ichiba Market",
+                "category": "Market",
+                "rating": 4.5,
+                "description": "Famous food market known as Osaka's kitchen",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.6689,
+                  "lng": 135.5032,
+                  "address": "Nipponbashi, Chuo-ku"
+                },
+                "activities": [
+                  "Food shopping",
+                  "Local snacks",
+                  "Seafood tasting",
+                  "Cooking tools"
+                ]
+              },
+              {
+                "id": "JPN-OSK-005",
+                "name": "Osaka Aquarium Kaiyukan",
+                "category": "Aquarium",
+                "rating": 4.7,
+                "description": "One of the world's largest aquariums featuring whale sharks",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.6547,
+                  "lng": 135.4610,
+                  "address": "1-1-10 Kaigandori, Minato-ku"
+                },
+                "activities": [
+                  "Aquarium tour",
+                  "Whale shark viewing",
+                  "Interactive exhibits",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "JPN-OSK-006",
+                "name": "Shitennoji Temple",
+                "category": "Temple",
+                "rating": 4.4,
+                "description": "One of Japan's oldest Buddhist temples",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 34.6567,
+                  "lng": 135.5144,
+                  "address": "1-11-18 Shitennoji, Tennoji-ku"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Garden walking",
+                  "Prayer",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-OSK-007",
+                "name": "Tsutenkaku Tower",
+                "category": "Landmark",
+                "rating": 4.3,
+                "description": "Historic tower in the Shinsekai district",
+                "visit_duration": "1 hour",
+                "best_time_to_visit": "Evening",
+                "price_range": "$",
+                "location": {
+                  "lat": 34.6525,
+                  "lng": 135.5063,
+                  "address": "1-18-6 Ebisu-higashi, Naniwa-ku"
+                },
+                "activities": [
+                  "Observation deck",
+                  "Photo spots",
+                  "Shopping",
+                  "Local food"
+                ]
+              },
+              {
+                "id": "JPN-OSK-008",
+                "name": "Osaka Science Museum",
+                "category": "Museum",
+                "rating": 4.4,
+                "description": "Interactive science museum with planetarium",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$",
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "4-2-1 Nakanoshima, Kita-ku"
+                },
+                "activities": [
+                  "Interactive exhibits",
+                  "Planetarium show",
+                  "Science demonstrations",
+                  "Children's area"
+                ]
+              },
+              {
+                "id": "JPN-OSK-009",
+                "name": "Tempozan Ferris Wheel",
+                "category": "Entertainment",
+                "rating": 4.3,
+                "description": "One of the world's largest ferris wheels with views of Osaka Bay",
+                "visit_duration": "30 minutes",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.6547,
+                  "lng": 135.4610,
+                  "address": "1-1-10 Kaigandori, Minato-ku"
+                },
+                "activities": [
+                  "Ferris wheel ride",
+                  "Photo opportunities",
+                  "Bay view",
+                  "Shopping"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "JPN-OSK-H001",
+                "name": "The Ritz-Carlton Osaka",
+                "rating": 4.9,
+                "stars": 5,
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "2-5-25 Umeda, Kita-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 80000,
+                    "peak": 110000,
+                    "off_peak": 70000
+                  },
+                  "deluxe": {
+                    "base": 110000,
+                    "peak": 140000,
+                    "off_peak": 90000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-OSK-001", "JPN-OSK-002"]
+              },
+              {
+                "id": "JPN-OSK-H002",
+                "name": "Swissotel Nankai Osaka",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 34.6689,
+                  "lng": 135.5032,
+                  "address": "5-1-60 Namba, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 70000,
+                    "peak": 95000,
+                    "off_peak": 60000
+                  },
+                  "deluxe": {
+                    "base": 95000,
+                    "peak": 120000,
+                    "off_peak": 80000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-OSK-002", "JPN-OSK-004"]
+              },
+              {
+                "id": "JPN-OSK-H003",
+                "name": "Hotel Universal Port",
+                "rating": 4.5,
+                "stars": 4,
+                "location": {
+                  "lat": 34.6656,
+                  "lng": 135.4329,
+                  "address": "1-1-111 Sakurajima, Konohana-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  },
+                  "deluxe": {
+                    "base": 45000,
+                    "peak": 55000,
+                    "off_peak": 40000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Character Meet & Greet",
+                  "Multiple Restaurants",
+                  "Gift Shop",
+                  "Shuttle Service"
+                ],
+                "nearby_places": ["JPN-OSK-003"]
+              },
+              {
+                "id": "JPN-OSK-H004",
+                "name": "Osaka Marriott Miyako Hotel",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "3-6-32 Abeno-suji, Abeno-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 65000,
+                    "peak": 90000,
+                    "off_peak": 55000
+                  },
+                  "deluxe": {
+                    "base": 90000,
+                    "peak": 115000,
+                    "off_peak": 75000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-OSK-006", "JPN-OSK-007"]
+              },
+              {
+                "id": "JPN-OSK-H005",
+                "name": "Hotel Granvia Osaka",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "3-1-1 Umeda, Kita-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  },
+                  "deluxe": {
+                    "base": 40000,
+                    "peak": 50000,
+                    "off_peak": 35000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center",
+                  "Shopping Arcade"
+                ],
+                "nearby_places": ["JPN-OSK-001", "JPN-OSK-002"]
+              },
+              {
+                "id": "JPN-OSK-H006",
+                "name": "Namba Oriental Hotel",
+                "rating": 4.3,
+                "stars": 4,
+                "location": {
+                  "lat": 34.6689,
+                  "lng": 135.5032,
+                  "address": "2-8-17 Sennichimae, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  },
+                  "deluxe": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-OSK-002", "JPN-OSK-004"]
+              },
+              {
+                "id": "JPN-OSK-H007",
+                "name": "Hotel New Hankyu Osaka",
+                "rating": 4.2,
+                "stars": 4,
+                "location": {
+                  "lat": 34.6873,
+                  "lng": 135.5262,
+                  "address": "1-1-35 Shibata, Kita-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 20000,
+                    "peak": 30000,
+                    "off_peak": 15000
+                  },
+                  "deluxe": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-OSK-001", "JPN-OSK-002"]
+              }
+            ]
+          },
+          "KYO": {
+            "name": "Kyoto",
+            "description": "Japan's cultural heart and former imperial capital",
+            "places": [
+              {
+                "id": "JPN-KYO-001",
+                "name": "Kiyomizu Temple",
+                "category": "Temple",
+                "rating": 4.8,
+                "description": "Historic temple with wooden stage and panoramic views",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Early morning or evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 34.9949,
+                  "lng": 135.7850,
+                  "address": "1-294 Kiyomizu, Higashiyama-ku"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Wooden stage viewing",
+                  "Water purification",
+                  "Cherry blossom viewing"
+                ]
+              },
+              {
+                "id": "JPN-KYO-002",
+                "name": "Fushimi Inari Shrine",
+                "category": "Shrine",
+                "rating": 4.8,
+                "description": "Famous for thousands of red torii gates",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Early morning or evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 34.9671,
+                  "lng": 135.7727,
+                  "address": "68 Fukakusa Yabunouchicho, Fushimi-ku"
+                },
+                "activities": [
+                  "Torii gate walk",
+                  "Shrine visit",
+                  "Hiking",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-KYO-003",
+                "name": "Kinkaku-ji (Golden Pavilion)",
+                "category": "Temple",
+                "rating": 4.7,
+                "description": "Zen temple covered in gold leaf",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0394,
+                  "lng": 135.7292,
+                  "address": "1 Kinkakujicho, Kita-ku"
+                },
+                "activities": [
+                  "Temple viewing",
+                  "Garden walking",
+                  "Photography",
+                  "Tea ceremony"
+                ]
+              },
+              {
+                "id": "JPN-KYO-004",
+                "name": "Arashiyama Bamboo Grove",
+                "category": "Nature",
+                "rating": 4.6,
+                "description": "Famous bamboo forest path",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Early morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.0094,
+                  "lng": 135.6771,
+                  "address": "Sagaogurayama Tabuchiyamacho, Ukyo-ku"
+                },
+                "activities": [
+                  "Bamboo forest walk",
+                  "Photography",
+                  "Temple visits",
+                  "Monkey park"
+                ]
+              },
+              {
+                "id": "JPN-KYO-005",
+                "name": "Gion District",
+                "category": "Historic District",
+                "rating": 4.6,
+                "description": "Historic geisha district with traditional architecture",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 35.0047,
+                  "lng": 135.7752,
+                  "address": "Higashiyama-ku"
+                },
+                "activities": [
+                  "Historic walking tour",
+                  "Geisha spotting",
+                  "Traditional dining",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-KYO-006",
+                "name": "Nijo Castle",
+                "category": "Castle",
+                "rating": 4.6,
+                "description": "Historic castle with nightingale floors",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0142,
+                  "lng": 135.7482,
+                  "address": "541 Nijojocho, Nakagyo-ku"
+                },
+                "activities": [
+                  "Castle tour",
+                  "Garden walking",
+                  "Historic architecture",
+                  "Cherry blossom viewing"
+                ]
+              },
+              {
+                "id": "JPN-KYO-007",
+                "name": "Philosopher's Path",
+                "category": "Nature",
+                "rating": 4.5,
+                "description": "Scenic walking path along a canal",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Spring or Autumn",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.0272,
+                  "lng": 135.7944,
+                  "address": "Sakyo-ku"
+                },
+                "activities": [
+                  "Walking",
+                  "Cherry blossom viewing",
+                  "Temple visits",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-KYO-008",
+                "name": "Ryoan-ji Temple",
+                "category": "Temple",
+                "rating": 4.5,
+                "description": "Famous for its Zen rock garden",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0336,
+                  "lng": 135.7189,
+                  "address": "13 Ryoanji Goryonoshitacho, Ukyo-ku"
+                },
+                "activities": [
+                  "Rock garden viewing",
+                  "Temple visit",
+                  "Zen meditation",
+                  "Garden walking"
+                ]
+              },
+              {
+                "id": "JPN-KYO-009",
+                "name": "Nishiki Market",
+                "category": "Market",
+                "rating": 4.5,
+                "description": "Traditional food market with local specialties",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0047,
+                  "lng": 135.7647,
+                  "address": "Nakagyo-ku"
+                },
+                "activities": [
+                  "Food shopping",
+                  "Local snacks",
+                  "Traditional crafts",
+                  "People watching"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "JPN-KYO-H001",
+                "name": "The Ritz-Carlton Kyoto",
+                "rating": 4.9,
+                "stars": 5,
+                "location": {
+                  "lat": 35.0124,
+                  "lng": 135.7681,
+                  "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 85000,
+                    "peak": 120000,
+                    "off_peak": 75000
+                  },
+                  "deluxe": {
+                    "base": 120000,
+                    "peak": 150000,
+                    "off_peak": 100000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Japanese Garden",
+                  "Tea Ceremony Room",
+                  "Multiple Restaurants"
+                ],
+                "nearby_places": ["JPN-KYO-005", "JPN-KYO-007"]
+              },
+              {
+                "id": "JPN-KYO-H002",
+                "name": "Four Seasons Hotel Kyoto",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 34.9817,
+                  "lng": 135.7760,
+                  "address": "445-3 Myohoin Maekawa-cho, Higashiyama-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 75000,
+                    "peak": 95000,
+                    "off_peak": 65000
+                  },
+                  "deluxe": {
+                    "base": 95000,
+                    "peak": 120000,
+                    "off_peak": 85000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Traditional Garden",
+                  "Tea House"
+                ],
+                "nearby_places": ["JPN-KYO-003", "JPN-KYO-006"]
+              },
+              {
+                "id": "JPN-KYO-H003",
+                "name": "Hyatt Regency Kyoto",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 34.9949,
+                  "lng": 135.7850,
+                  "address": "644-2 Sanjusangendo-mawari, Higashiyama-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 60000,
+                    "peak": 80000,
+                    "off_peak": 50000
+                  },
+                  "deluxe": {
+                    "base": 80000,
+                    "peak": 100000,
+                    "off_peak": 70000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-KYO-001", "JPN-KYO-005"]
+              },
+              {
+                "id": "JPN-KYO-H004",
+                "name": "Hotel Kanra Kyoto",
+                "rating": 4.5,
+                "stars": 4,
+                "location": {
+                  "lat": 35.0047,
+                  "lng": 135.7647,
+                  "address": "190 Kitamachi, Karasuma-dori, Nakagyo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 45000,
+                    "peak": 60000,
+                    "off_peak": 40000
+                  },
+                  "deluxe": {
+                    "base": 60000,
+                    "peak": 75000,
+                    "off_peak": 55000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Traditional Design",
+                  "Onsen",
+                  "Restaurant",
+                  "Tea Room"
+                ],
+                "nearby_places": ["JPN-KYO-009", "JPN-KYO-006"]
+              },
+              {
+                "id": "JPN-KYO-H005",
+                "name": "Hotel Mume",
+                "rating": 4.7,
+                "stars": 4,
+                "location": {
+                  "lat": 35.0047,
+                  "lng": 135.7752,
+                  "address": "261 Umemoto-cho, Kiyamachi-dori, Sanjo-sagaru, Nakagyo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  },
+                  "deluxe": {
+                    "base": 45000,
+                    "peak": 55000,
+                    "off_peak": 40000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Traditional Design",
+                  "Tea Room",
+                  "Bicycle Rental",
+                  "Concierge Service"
+                ],
+                "nearby_places": ["JPN-KYO-005", "JPN-KYO-009"]
+              }
+            ]
+          },
+          "SAP": {
+            "name": "Sapporo",
+            "description": "Northern city known for winter sports and beer",
+            "places": [
+              {
+                "id": "JPN-SAP-001",
+                "name": "Odori Park",
+                "category": "Park",
+                "rating": 4.7,
+                "description": "Central park famous for seasonal festivals and events",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "All seasons",
+                "price_range": "Free",
+                "location": {
+                  "lat": 43.0618,
+                  "lng": 141.3545,
+                  "address": "7 Chome Odorinishi, Chuo-ku"
+                },
+                "activities": [
+                  "Park walking",
+                  "Seasonal festivals",
+                  "Sapporo TV Tower",
+                  "Ice sculptures"
+                ]
+              },
+              {
+                "id": "JPN-SAP-002",
+                "name": "Sapporo Beer Museum",
+                "category": "Museum",
+                "rating": 4.5,
+                "description": "Historic brewery museum with beer tasting",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Afternoon",
+                "price_range": "$$",
+                "location": {
+                  "lat": 43.0642,
+                  "lng": 141.3609,
+                  "address": "9-1-1 Kita 7 Johigashi, Higashi-ku"
+                },
+                "activities": [
+                  "Museum tour",
+                  "Beer tasting",
+                  "Historic building",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "JPN-SAP-003",
+                "name": "Sapporo Clock Tower",
+                "category": "Landmark",
+                "rating": 4.3,
+                "description": "Historic wooden clock tower and symbol of Sapporo",
+                "visit_duration": "30 minutes",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 43.0621,
+                  "lng": 141.3544,
+                  "address": "2 Chome Kita 1 Jonishi, Chuo-ku"
+                },
+                "activities": [
+                  "Clock tower viewing",
+                  "Historic building",
+                  "Photography",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "JPN-SAP-004",
+                "name": "Mount Moiwa",
+                "category": "Nature",
+                "rating": 4.6,
+                "description": "Mountain with panoramic views of Sapporo",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 43.0500,
+                  "lng": 141.3167,
+                  "address": "Moiwayama, Minami-ku"
+                },
+                "activities": [
+                  "Observation deck",
+                  "Night view",
+                  "Hiking",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "JPN-SAP-005",
+                "name": "Sapporo TV Tower",
+                "category": "Landmark",
+                "rating": 4.4,
+                "description": "Observation tower in Odori Park",
+                "visit_duration": "1 hour",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 43.0618,
+                  "lng": 141.3545,
+                  "address": "1 Chome Odorinishi, Chuo-ku"
+                },
+                "activities": [
+                  "Observation deck",
+                  "City view",
+                  "Photography",
+                  "Gift shop"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "JPN-SAP-H001",
+                "name": "JR Tower Hotel Nikko Sapporo",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 43.0686,
+                  "lng": 141.3507,
+                  "address": "2-5 North 5 West, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 65000,
+                    "peak": 85000,
+                    "off_peak": 55000
+                  },
+                  "deluxe": {
+                    "base": 85000,
+                    "peak": 105000,
+                    "off_peak": 75000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-SAP-001", "JPN-SAP-003"]
+              },
+              {
+                "id": "JPN-SAP-H002",
+                "name": "Cross Hotel Sapporo",
+                "rating": 4.6,
+                "stars": 4,
+                "location": {
+                  "lat": 43.0618,
+                  "lng": 141.3545,
+                  "address": "2-23 Kita 2 Jonishi, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 45000,
+                    "peak": 60000,
+                    "off_peak": 40000
+                  },
+                  "deluxe": {
+                    "base": 60000,
+                    "peak": 75000,
+                    "off_peak": 55000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Restaurant",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["JPN-SAP-001", "JPN-SAP-005"]
+              },
+              {
+                "id": "JPN-SAP-H003",
+                "name": "Hotel Gracery Sapporo",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 43.0618,
+                  "lng": 141.3545,
+                  "address": "4-1 Minami 3 Jonishi, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  },
+                  "deluxe": {
+                    "base": 45000,
+                    "peak": 55000,
+                    "off_peak": 40000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-SAP-006", "JPN-SAP-009"]
+              },
+              {
+                "id": "JPN-SAP-H004",
+                "name": "Premier Hotel Tsubaki Sapporo",
+                "rating": 4.3,
+                "stars": 4,
+                "location": {
+                  "lat": 43.0618,
+                  "lng": 141.3545,
+                  "address": "1-1-1 Minami 1 Jonishi, Chuo-ku"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  },
+                  "deluxe": {
+                    "base": 40000,
+                    "peak": 50000,
+                    "off_peak": 35000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Laundry Service",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["JPN-SAP-003", "JPN-SAP-006"]
+              }
+            ]
+          }
+        }
+      },
+      "KOR": {
+        "name": "South Korea",
+        "currency": "KRW",
+        "language": ["Korean", "English"],
+        "cities": {
+          "SEL": {
+            "name": "Seoul",
+            "description": "Dynamic capital blending modern technology with traditional culture",
+            "places": [
+              {
+                "id": "KOR-SEL-001",
+                "name": "Gyeongbokgung Palace",
+                "category": "Palace",
+                "rating": 4.8,
+                "description": "Joseon dynasty's main royal palace with traditional architecture",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5796,
+                  "lng": 126.9770,
+                  "address": "161 Sajik-ro, Jongno-gu"
+                },
+                "activities": [
+                  "Palace tour",
+                  "Changing of guards",
+                  "Traditional architecture",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "KOR-SEL-002",
+                "name": "N Seoul Tower",
+                "category": "Landmark",
+                "rating": 4.6,
+                "description": "Iconic communication and observation tower on Namsan Mountain",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5513,
+                  "lng": 126.9882,
+                  "address": "105 Namsangongwon-gil, Yongsan-gu"
+                },
+                "activities": [
+                  "Observation deck",
+                  "Love locks",
+                  "Cable car ride",
+                  "Hiking"
+                ]
+              },
+              {
+                "id": "KOR-SEL-003",
+                "name": "Myeongdong",
+                "category": "Shopping",
+                "rating": 4.5,
+                "description": "Major shopping district with Korean cosmetics and street food",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5635,
+                  "lng": 126.9850,
+                  "address": "Jung-gu"
+                },
+                "activities": [
+                  "Shopping",
+                  "Street food",
+                  "Cosmetics shopping",
+                  "People watching"
+                ]
+              },
+              {
+                "id": "KOR-SEL-004",
+                "name": "Bukchon Hanok Village",
+                "category": "Historic District",
+                "rating": 4.6,
+                "description": "Traditional Korean village with historic hanok houses",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 37.5833,
+                  "lng": 126.9792,
+                  "address": "Jongno-gu"
+                },
+                "activities": [
+                  "Historic walking tour",
+                  "Traditional architecture",
+                  "Photography",
+                  "Cultural experience"
+                ]
+              },
+              {
+                "id": "KOR-SEL-005",
+                "name": "Dongdaemun Design Plaza",
+                "category": "Architecture",
+                "rating": 4.4,
+                "description": "Futuristic building housing design exhibitions and shopping",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5665,
+                  "lng": 127.0097,
+                  "address": "281 Eulji-ro, Jung-gu"
+                },
+                "activities": [
+                  "Design exhibitions",
+                  "Shopping",
+                  "Architecture viewing",
+                  "Night market"
+                ]
+              },
+              {
+                "id": "KOR-SEL-006",
+                "name": "Lotte World",
+                "category": "Theme Park",
+                "rating": 4.5,
+                "description": "Major theme park with indoor and outdoor attractions",
+                "visit_duration": "Full day",
+                "best_time_to_visit": "Weekday",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 37.5111,
+                  "lng": 127.0981,
+                  "address": "240 Olympic-ro, Songpa-gu"
+                },
+                "activities": [
+                  "Ride attractions",
+                  "Ice skating",
+                  "Parade watching",
+                  "Shopping"
+                ]
+              },
+              {
+                "id": "KOR-SEL-007",
+                "name": "Changdeokgung Palace",
+                "category": "Palace",
+                "rating": 4.7,
+                "description": "UNESCO World Heritage site with beautiful secret garden",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5796,
+                  "lng": 126.9770,
+                  "address": "99 Yulgok-ro, Jongno-gu"
+                },
+                "activities": [
+                  "Palace tour",
+                  "Secret garden",
+                  "Traditional architecture",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "KOR-SEL-008",
+                "name": "Gangnam District",
+                "category": "Entertainment",
+                "rating": 4.4,
+                "description": "Modern district known for shopping and nightlife",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 37.5172,
+                  "lng": 127.0473,
+                  "address": "Gangnam-gu"
+                },
+                "activities": [
+                  "Shopping",
+                  "Nightlife",
+                  "K-pop culture",
+                  "Dining"
+                ]
+              },
+              {
+                "id": "KOR-SEL-009",
+                "name": "Namsan Seoul Tower",
+                "category": "Landmark",
+                "rating": 4.6,
+                "description": "Iconic tower offering panoramic views of Seoul",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 37.5513,
+                  "lng": 126.9882,
+                  "address": "105 Namsangongwon-gil, Yongsan-gu"
+                },
+                "activities": [
+                  "Observation deck",
+                  "Love locks",
+                  "Cable car ride",
+                  "Hiking"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "KOR-SEL-H001",
+                "name": "Four Seasons Hotel Seoul",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 37.5665,
+                  "lng": 126.9780,
+                  "address": "97 Saemunan-ro, Jongno-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 450000,
+                    "peak": 550000,
+                    "off_peak": 400000
+                  },
+                  "deluxe": {
+                    "base": 550000,
+                    "peak": 650000,
+                    "off_peak": 500000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-SEL-001", "KOR-SEL-004"]
+              },
+              {
+                "id": "KOR-SEL-H002",
+                "name": "Lotte Hotel Seoul",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 37.5651,
+                  "lng": 126.9895,
+                  "address": "30 Eulji-ro, Jung-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 400000,
+                    "peak": 500000,
+                    "off_peak": 350000
+                  },
+                  "deluxe": {
+                    "base": 500000,
+                    "peak": 600000,
+                    "off_peak": 450000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-SEL-003", "KOR-SEL-005"]
+              },
+              {
+                "id": "KOR-SEL-H003",
+                "name": "Grand Hyatt Seoul",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 37.5716,
+                  "lng": 126.9764,
+                  "address": "322 Sowol-ro, Yongsan-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 350000,
+                    "peak": 450000,
+                    "off_peak": 300000
+                  },
+                  "deluxe": {
+                    "base": 450000,
+                    "peak": 550000,
+                    "off_peak": 400000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-SEL-002", "KOR-SEL-009"]
+              },
+              {
+                "id": "KOR-SEL-H004",
+                "name": "Hotel Shilla Seoul",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 37.5583,
+                  "lng": 126.9778,
+                  "address": "249 Dongho-ro, Jung-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 380000,
+                    "peak": 480000,
+                    "off_peak": 330000
+                  },
+                  "deluxe": {
+                    "base": 480000,
+                    "peak": 580000,
+                    "off_peak": 430000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-SEL-003", "KOR-SEL-008"]
+              },
+              {
+                "id": "KOR-SEL-H005",
+                "name": "Novotel Ambassador Seoul Dongdaemun",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 37.5665,
+                  "lng": 127.0097,
+                  "address": "238 Toegye-ro, Jung-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 250000,
+                    "peak": 350000,
+                    "off_peak": 200000
+                  },
+                  "deluxe": {
+                    "base": 350000,
+                    "peak": 450000,
+                    "off_peak": 300000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Fitness Center",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["KOR-SEL-005", "KOR-SEL-003"]
+              }
+            ]
+          },
+          "BSN": {
+            "name": "Busan",
+            "description": "Coastal city famous for beaches and seafood",
+            "places": [
+              {
+                "id": "KOR-BSN-001",
+                "name": "Haeundae Beach",
+                "category": "Beach",
+                "rating": 4.7,
+                "description": "Famous beach known for its white sand and clear waters",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Summer",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.1587,
+                  "lng": 129.1608,
+                  "address": "264 Haeundaehaebyeon-ro, Haeundae-gu"
+                },
+                "activities": [
+                  "Swimming",
+                  "Beach walking",
+                  "Water sports",
+                  "Sunset viewing"
+                ]
+              },
+              {
+                "id": "KOR-BSN-002",
+                "name": "Gamcheon Culture Village",
+                "category": "Historic District",
+                "rating": 4.6,
+                "description": "Colorful hillside village with art installations and murals",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 35.0977,
+                  "lng": 129.0104,
+                  "address": "203 Gamnae 2-ro, Saha-gu"
+                },
+                "activities": [
+                  "Art viewing",
+                  "Photo spots",
+                  "Local cafes",
+                  "Walking tour"
+                ]
+              },
+              {
+                "id": "KOR-BSN-003",
+                "name": "Busan Tower",
+                "category": "Landmark",
+                "rating": 4.5,
+                "description": "Observation tower offering panoramic views of Busan",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0977,
+                  "lng": 129.0357,
+                  "address": "37-55 Yongdusan-gil, Jung-gu"
+                },
+                "activities": [
+                  "Observation deck",
+                  "City view",
+                  "Photography",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "KOR-BSN-004",
+                "name": "Jagalchi Market",
+                "category": "Market",
+                "rating": 4.5,
+                "description": "Korea's largest seafood market",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 35.0977,
+                  "lng": 129.0357,
+                  "address": "52 Jagalchihaean-ro, Jung-gu"
+                },
+                "activities": [
+                  "Seafood shopping",
+                  "Local food",
+                  "Market tour",
+                  "People watching"
+                ]
+              },
+              {
+                "id": "KOR-BSN-005",
+                "name": "Beomeosa Temple",
+                "category": "Temple",
+                "rating": 4.6,
+                "description": "Historic Buddhist temple in the mountains",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 35.2887,
+                  "lng": 129.0677,
+                  "address": "250 Beomeosa-ro, Geumjeong-gu"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Mountain hiking",
+                  "Meditation",
+                  "Photography"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "KOR-BSN-H001",
+                "name": "Paradise Hotel Busan",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 35.1587,
+                  "lng": 129.1608,
+                  "address": "296 Haeundaehaebyeon-ro, Haeundae-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 350000,
+                    "peak": 450000,
+                    "off_peak": 300000
+                  },
+                  "deluxe": {
+                    "base": 450000,
+                    "peak": 550000,
+                    "off_peak": 400000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-BSN-001"]
+              },
+              {
+                "id": "KOR-BSN-H002",
+                "name": "Lotte Hotel Busan",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 35.0977,
+                  "lng": 129.0357,
+                  "address": "772 Gaya-daero, Busanjin-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 300000,
+                    "peak": 400000,
+                    "off_peak": 250000
+                  },
+                  "deluxe": {
+                    "base": 400000,
+                    "peak": 500000,
+                    "off_peak": 350000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-BSN-003", "KOR-BSN-004"]
+              },
+              {
+                "id": "KOR-BSN-H003",
+                "name": "Grand Josun Busan",
+                "rating": 4.5,
+                "stars": 5,
+                "location": {
+                  "lat": 35.1587,
+                  "lng": 129.1608,
+                  "address": "263 Haeundaehaebyeon-ro, Haeundae-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 280000,
+                    "peak": 380000,
+                    "off_peak": 230000
+                  },
+                  "deluxe": {
+                    "base": 380000,
+                    "peak": 480000,
+                    "off_peak": 330000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-BSN-001"]
+              },
+              {
+                "id": "KOR-BSN-H004",
+                "name": "Hotel Nongshim",
+                "rating": 4.4,
+                "stars": 4,
+                "location": {
+                  "lat": 35.1587,
+                  "lng": 129.1608,
+                  "address": "23 Geumganggongwon-ro 20beon-gil, Dongnae-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 200000,
+                    "peak": 300000,
+                    "off_peak": 150000
+                  },
+                  "deluxe": {
+                    "base": 300000,
+                    "peak": 400000,
+                    "off_peak": 250000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["KOR-BSN-005"]
+              },
+              {
+                "id": "KOR-BSN-H005",
+                "name": "Hotel Kyungsung",
+                "rating": 4.3,
+                "stars": 4,
+                "location": {
+                  "lat": 35.0977,
+                  "lng": 129.0357,
+                  "address": "772 Gaya-daero, Busanjin-gu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 150000,
+                    "peak": 250000,
+                    "off_peak": 100000
+                  },
+                  "deluxe": {
+                    "base": 250000,
+                    "peak": 350000,
+                    "off_peak": 200000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Restaurant",
+                  "Fitness Center",
+                  "Business Center",
+                  "24-hour Front Desk"
+                ],
+                "nearby_places": ["KOR-BSN-003", "KOR-BSN-004"]
+              }
+            ]
+          }
+        }
+      },
+      "IND": {
+        "name": "India",
+        "currency": "INR",
+        "language": ["Hindi", "English"],
+        "cities": {
+          "DEL": {
+            "name": "Delhi",
+            "description": "India's historic capital combining ancient monuments with modern vitality",
+            "places": [
+              {
+                "id": "IND-DEL-001",
+                "name": "Red Fort",
+                "category": "Historic Monument",
+                "rating": 4.7,
+                "description": "UNESCO World Heritage site, historic fort and palace complex",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 28.6562,
+                  "lng": 77.2410,
+                  "address": "Netaji Subhash Marg, Chandni Chowk"
+                },
+                "activities": [
+                  "Fort tour",
+                  "Light and sound show",
+                  "Museum visit",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-DEL-002",
+                "name": "Qutub Minar",
+                "category": "Historic Monument",
+                "rating": 4.6,
+                "description": "Tallest brick minaret in the world, UNESCO World Heritage site",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 28.5244,
+                  "lng": 77.1855,
+                  "address": "Mehrauli, South Delhi"
+                },
+                "activities": [
+                  "Minaret viewing",
+                  "Archaeological site tour",
+                  "Photography",
+                  "Garden walking"
+                ]
+              },
+              {
+                "id": "IND-DEL-003",
+                "name": "Humayun's Tomb",
+                "category": "Historic Monument",
+                "rating": 4.6,
+                "description": "UNESCO World Heritage site, precursor to Taj Mahal's architecture",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 28.5931,
+                  "lng": 77.2500,
+                  "address": "Mathura Road, Nizamuddin"
+                },
+                "activities": [
+                  "Tomb visit",
+                  "Garden walking",
+                  "Architecture viewing",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-DEL-004",
+                "name": "India Gate",
+                "category": "War Memorial",
+                "rating": 4.5,
+                "description": "War memorial arch honoring Indian soldiers",
+                "visit_duration": "1 hour",
+                "best_time_to_visit": "Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 28.6129,
+                  "lng": 77.2295,
+                  "address": "Rajpath, Central Delhi"
+                },
+                "activities": [
+                  "Memorial visit",
+                  "Evening stroll",
+                  "Photography",
+                  "People watching"
+                ]
+              },
+              {
+                "id": "IND-DEL-005",
+                "name": "Lotus Temple",
+                "category": "Religious Site",
+                "rating": 4.5,
+                "description": "Bahá'í House of Worship with distinctive lotus-shaped architecture",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 28.5535,
+                  "lng": 77.2588,
+                  "address": "Bahapur, Kalkaji"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Meditation",
+                  "Architecture viewing",
+                  "Garden walking"
+                ]
+              },
+              {
+                "id": "IND-DEL-006",
+                "name": "Chandni Chowk",
+                "category": "Market",
+                "rating": 4.4,
+                "description": "Historic market area with traditional bazaars and street food",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 28.6562,
+                  "lng": 77.2310,
+                  "address": "Chandni Chowk, Old Delhi"
+                },
+                "activities": [
+                  "Street food tasting",
+                  "Shopping",
+                  "Rickshaw ride",
+                  "People watching"
+                ]
+              },
+              {
+                "id": "IND-DEL-007",
+                "name": "Akshardham Temple",
+                "category": "Religious Site",
+                "rating": 4.7,
+                "description": "Modern Hindu temple complex with cultural exhibitions",
+                "visit_duration": "3-4 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 28.6127,
+                  "lng": 77.2773,
+                  "address": "Noida Mor, Pandav Nagar"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Cultural show",
+                  "Exhibition tour",
+                  "Garden walking"
+                ]
+              },
+              {
+                "id": "IND-DEL-008",
+                "name": "Jama Masjid",
+                "category": "Religious Site",
+                "rating": 4.6,
+                "description": "India's largest mosque with stunning architecture",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 28.6507,
+                  "lng": 77.2334,
+                  "address": "Chandni Chowk, Old Delhi"
+                },
+                "activities": [
+                  "Mosque visit",
+                  "Architecture viewing",
+                  "Photography",
+                  "Minaret climb"
+                ]
+              },
+              {
+                "id": "IND-DEL-009",
+                "name": "National Museum",
+                "category": "Museum",
+                "rating": 4.4,
+                "description": "India's largest museum showcasing art and history",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 28.6119,
+                  "lng": 77.2197,
+                  "address": "Janpath, Central Delhi"
+                },
+                "activities": [
+                  "Museum tour",
+                  "Art viewing",
+                  "Cultural exhibits",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "IND-DEL-010",
+                "name": "Lodhi Gardens",
+                "category": "Park",
+                "rating": 4.5,
+                "description": "Historic park with tombs and gardens",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning or Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 28.5931,
+                  "lng": 77.2197,
+                  "address": "Lodhi Road, Central Delhi"
+                },
+                "activities": [
+                  "Garden walking",
+                  "Tomb viewing",
+                  "Photography",
+                  "Bird watching"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "IND-DEL-H001",
+                "name": "The Oberoi New Delhi",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 28.6129,
+                  "lng": 77.2295,
+                  "address": "Dr. Zakir Hussain Marg, New Delhi"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  },
+                  "deluxe": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-DEL-004", "IND-DEL-009"]
+              },
+              {
+                "id": "IND-DEL-H002",
+                "name": "Taj Palace New Delhi",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 28.5931,
+                  "lng": 77.2197,
+                  "address": "2, Sardar Patel Marg, Diplomatic Enclave"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 22000,
+                    "peak": 32000,
+                    "off_peak": 18000
+                  },
+                  "deluxe": {
+                    "base": 32000,
+                    "peak": 42000,
+                    "off_peak": 27000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-DEL-010", "IND-DEL-009"]
+              },
+              {
+                "id": "IND-DEL-H003",
+                "name": "The Imperial New Delhi",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 28.6119,
+                  "lng": 77.2197,
+                  "address": "Janpath, Connaught Place"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 20000,
+                    "peak": 30000,
+                    "off_peak": 16000
+                  },
+                  "deluxe": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-DEL-009", "IND-DEL-006"]
+              },
+              {
+                "id": "IND-DEL-H004",
+                "name": "ITC Maurya New Delhi",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 28.5931,
+                  "lng": 77.2197,
+                  "address": "Diplomatic Enclave, Sardar Patel Marg"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 18000,
+                    "peak": 28000,
+                    "off_peak": 15000
+                  },
+                  "deluxe": {
+                    "base": 28000,
+                    "peak": 38000,
+                    "off_peak": 23000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-DEL-010", "IND-DEL-009"]
+              },
+              {
+                "id": "IND-DEL-H005",
+                "name": "The Claridges New Delhi",
+                "rating": 4.5,
+                "stars": 4,
+                "location": {
+                  "lat": 28.5931,
+                  "lng": 77.2197,
+                  "address": "12, Dr. APJ Abdul Kalam Road"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 15000,
+                    "peak": 25000,
+                    "off_peak": 12000
+                  },
+                  "deluxe": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-DEL-009", "IND-DEL-010"]
+              }
+            ]
+          },
+          "MUM": {
+            "name": "Mumbai",
+            "description": "India's largest city and financial powerhouse, a vibrant metropolis where colonial architecture meets modern skyscrapers",
+            "places": [
+              {
+                "id": "IND-MUM-001",
+                "name": "Gateway of India",
+                "category": "Historic Monument",
+                "rating": 4.7,
+                "description": "Iconic arch monument overlooking the Arabian Sea, built during British rule",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 18.9219,
+                  "lng": 72.8347,
+                  "address": "Apollo Bandar, Colaba"
+                },
+                "activities": [
+                  "Monument viewing",
+                  "Boat rides",
+                  "Photography",
+                  "Street food"
+                ]
+              },
+              {
+                "id": "IND-MUM-002",
+                "name": "Marine Drive",
+                "category": "Landmark",
+                "rating": 4.6,
+                "description": "Famous 3.6 km long boulevard along the Arabian Sea coast",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 18.9437,
+                  "lng": 72.8239,
+                  "address": "Netaji Subhash Chandra Bose Road, Marine Drive"
+                },
+                "activities": [
+                  "Sea front walking",
+                  "Sunset viewing",
+                  "Photography",
+                  "Street food"
+                ]
+              },
+              {
+                "id": "IND-MUM-003",
+                "name": "Chhatrapati Shivaji Terminus",
+                "category": "Historic Building",
+                "rating": 4.6,
+                "description": "UNESCO World Heritage site, historic railway station with Victorian Gothic architecture",
+                "visit_duration": "1 hour",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 19.0602,
+                  "lng": 72.8591,
+                  "address": "D N Road, Fort"
+                },
+                "activities": [
+                  "Architecture viewing",
+                  "Photography",
+                  "Train watching",
+                  "Historic tour"
+                ]
+              },
+              {
+                "id": "IND-MUM-004",
+                "name": "Elephanta Caves",
+                "category": "Historic Site",
+                "rating": 4.5,
+                "description": "UNESCO World Heritage site featuring ancient rock-cut temples",
+                "visit_duration": "3-4 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 18.9633,
+                  "lng": 72.9314,
+                  "address": "Elephanta Island, Mumbai Harbour"
+                },
+                "activities": [
+                  "Cave exploration",
+                  "Boat ride",
+                  "Temple viewing",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-MUM-005",
+                "name": "Juhu Beach",
+                "category": "Beach",
+                "rating": 4.3,
+                "description": "Popular beach known for street food and sunset views",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 19.0969,
+                  "lng": 72.8278,
+                  "address": "Juhu Beach Road, Juhu"
+                },
+                "activities": [
+                  "Beach walking",
+                  "Street food",
+                  "Sunset viewing",
+                  "Horse riding"
+                ]
+              },
+              {
+                "id": "IND-MUM-006",
+                "name": "Haji Ali Dargah",
+                "category": "Religious Site",
+                "rating": 4.5,
+                "description": "Historic mosque and tomb located on an islet in the Arabian Sea",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 18.9829,
+                  "lng": 72.8356,
+                  "address": "Dargah Road, Worli"
+                },
+                "activities": [
+                  "Mosque visit",
+                  "Sea walk",
+                  "Religious ceremonies",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-MUM-007",
+                "name": "Siddhivinayak Temple",
+                "category": "Religious Site",
+                "rating": 4.6,
+                "description": "One of Mumbai's most famous Hindu temples dedicated to Lord Ganesha",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 19.0170,
+                  "lng": 72.8475,
+                  "address": "Prabhadevi, Dadar"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Religious ceremonies",
+                  "Prasad shopping",
+                  "Cultural experience"
+                ]
+              },
+              {
+                "id": "IND-MUM-008",
+                "name": "Bandra-Worli Sea Link",
+                "category": "Landmark",
+                "rating": 4.4,
+                "description": "Modern cable-stayed bridge connecting Bandra and Worli",
+                "visit_duration": "30 minutes",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 19.0330,
+                  "lng": 72.8277,
+                  "address": "Bandra-Worli Sea Link"
+                },
+                "activities": [
+                  "Bridge crossing",
+                  "Photography",
+                  "Sea view",
+                  "Sunset viewing"
+                ]
+              },
+              {
+                "id": "IND-MUM-009",
+                "name": "Sanjay Gandhi National Park",
+                "category": "Nature",
+                "rating": 4.4,
+                "description": "Large national park with wildlife and ancient Buddhist caves",
+                "visit_duration": "3-4 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 19.2143,
+                  "lng": 72.9102,
+                  "address": "Borivali East"
+                },
+                "activities": [
+                  "Wildlife viewing",
+                  "Cave exploration",
+                  "Nature trails",
+                  "Lion safari"
+                ]
+              },
+              {
+                "id": "IND-MUM-010",
+                "name": "Colaba Causeway",
+                "category": "Shopping",
+                "rating": 4.3,
+                "description": "Famous shopping street with local crafts and street food",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 18.9219,
+                  "lng": 72.8347,
+                  "address": "Shahid Bhagat Singh Road, Colaba"
+                },
+                "activities": [
+                  "Shopping",
+                  "Street food",
+                  "People watching",
+                  "Local crafts"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "IND-MUM-H001",
+                "name": "Taj Mahal Palace",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 18.9219,
+                  "lng": 72.8347,
+                  "address": "Apollo Bunder, Colaba"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  },
+                  "deluxe": {
+                    "base": 45000,
+                    "peak": 55000,
+                    "off_peak": 40000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-MUM-001", "IND-MUM-010"]
+              },
+              {
+                "id": "IND-MUM-H002",
+                "name": "The Oberoi Mumbai",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 18.9437,
+                  "lng": 72.8239,
+                  "address": "Nariman Point"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  },
+                  "deluxe": {
+                    "base": 40000,
+                    "peak": 50000,
+                    "off_peak": 35000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-MUM-002", "IND-MUM-003"]
+              },
+              {
+                "id": "IND-MUM-H003",
+                "name": "ITC Grand Central",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 19.0602,
+                  "lng": 72.8591,
+                  "address": "Dr. Babasaheb Ambedkar Road, Parel"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  },
+                  "deluxe": {
+                    "base": 35000,
+                    "peak": 45000,
+                    "off_peak": 30000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-MUM-003", "IND-MUM-007"]
+              },
+              {
+                "id": "IND-MUM-H004",
+                "name": "The Leela Mumbai",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 19.0969,
+                  "lng": 72.8278,
+                  "address": "Juhu Beach, Juhu"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 22000,
+                    "peak": 32000,
+                    "off_peak": 18000
+                  },
+                  "deluxe": {
+                    "base": 32000,
+                    "peak": 42000,
+                    "off_peak": 27000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-MUM-005"]
+              },
+              {
+                "id": "IND-MUM-H005",
+                "name": "Taj Lands End",
+                "rating": 4.5,
+                "stars": 4,
+                "location": {
+                  "lat": 19.0330,
+                  "lng": 72.8277,
+                  "address": "Bandra West"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 18000,
+                    "peak": 28000,
+                    "off_peak": 15000
+                  },
+                  "deluxe": {
+                    "base": 28000,
+                    "peak": 38000,
+                    "off_peak": 23000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-MUM-008"]
+              }
+            ]
+          },
+          "BLR": {
+            "name": "Bangalore",
+            "description": "India's Silicon Valley, a dynamic metropolis that perfectly blends technological prowess with historical charm",
+            "places": [
+              {
+                "id": "IND-BLR-001",
+                "name": "Bangalore Palace",
+                "category": "Historic Palace",
+                "rating": 4.6,
+                "description": "Historic palace with Tudor-style architecture and beautiful gardens",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 12.9987,
+                  "lng": 77.5925,
+                  "address": "Vasanth Nagar, Bengaluru"
+                },
+                "activities": [
+                  "Palace tour",
+                  "Garden walking",
+                  "Architecture viewing",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-BLR-002",
+                "name": "Lalbagh Botanical Garden",
+                "category": "Garden",
+                "rating": 4.7,
+                "description": "Historic botanical garden with rare plants and glass house",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 12.9507,
+                  "lng": 77.5848,
+                  "address": "Mavalli, Bengaluru"
+                },
+                "activities": [
+                  "Garden walking",
+                  "Plant viewing",
+                  "Glass house visit",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-BLR-003",
+                "name": "Cubbon Park",
+                "category": "Park",
+                "rating": 4.6,
+                "description": "Large central park with colonial architecture and museums",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Morning or Evening",
+                "price_range": "Free",
+                "location": {
+                  "lat": 12.9762,
+                  "lng": 77.5927,
+                  "address": "Kasturba Road, Bengaluru"
+                },
+                "activities": [
+                  "Park walking",
+                  "Museum visits",
+                  "Architecture viewing",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-BLR-004",
+                "name": "ISKCON Temple",
+                "category": "Religious Site",
+                "rating": 4.5,
+                "description": "Modern temple complex with cultural center and vegetarian restaurant",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "Free",
+                "location": {
+                  "lat": 12.9797,
+                  "lng": 77.6407,
+                  "address": "Hare Krishna Hill, Rajajinagar"
+                },
+                "activities": [
+                  "Temple visit",
+                  "Cultural programs",
+                  "Vegetarian dining",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "IND-BLR-005",
+                "name": "UB City",
+                "category": "Shopping",
+                "rating": 4.5,
+                "description": "Luxury shopping mall with high-end brands and restaurants",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 12.9716,
+                  "lng": 77.5946,
+                  "address": "Vittal Mallya Road, Central Bengaluru"
+                },
+                "activities": [
+                  "Luxury shopping",
+                  "Fine dining",
+                  "Art gallery",
+                  "People watching"
+                ]
+              },
+              {
+                "id": "IND-BLR-006",
+                "name": "Tipu Sultan's Summer Palace",
+                "category": "Historic Palace",
+                "rating": 4.4,
+                "description": "Historic palace with Indo-Islamic architecture and museum",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 12.9616,
+                  "lng": 77.5742,
+                  "address": "Albert Victor Road, Chamrajpet"
+                },
+                "activities": [
+                  "Palace tour",
+                  "Museum visit",
+                  "Architecture viewing",
+                  "Photography"
+                ]
+              },
+              {
+                "id": "IND-BLR-007",
+                "name": "Wonderla Amusement Park",
+                "category": "Theme Park",
+                "rating": 4.5,
+                "description": "Modern amusement park with water rides and attractions",
+                "visit_duration": "Full day",
+                "best_time_to_visit": "Weekday",
+                "price_range": "$$$",
+                "location": {
+                  "lat": 12.8347,
+                  "lng": 77.4030,
+                  "address": "Mysore Road, Bengaluru"
+                },
+                "activities": [
+                  "Ride attractions",
+                  "Water park",
+                  "Family entertainment",
+                  "Food court"
+                ]
+              },
+              {
+                "id": "IND-BLR-008",
+                "name": "National Gallery of Modern Art",
+                "category": "Museum",
+                "rating": 4.4,
+                "description": "Art museum showcasing modern and contemporary Indian art",
+                "visit_duration": "1-2 hours",
+                "best_time_to_visit": "Morning",
+                "price_range": "$$",
+                "location": {
+                  "lat": 12.9762,
+                  "lng": 77.5927,
+                  "address": "Manikyavelu Mansion, Palace Road"
+                },
+                "activities": [
+                  "Art viewing",
+                  "Exhibition tours",
+                  "Garden walking",
+                  "Gift shop"
+                ]
+              },
+              {
+                "id": "IND-BLR-009",
+                "name": "Commercial Street",
+                "category": "Shopping",
+                "rating": 4.3,
+                "description": "Historic shopping area with traditional markets and street food",
+                "visit_duration": "2-3 hours",
+                "best_time_to_visit": "Evening",
+                "price_range": "$$",
+                "location": {
+                  "lat": 12.9789,
+                  "lng": 77.6407,
+                  "address": "Shivaji Nagar, Bengaluru"
+                },
+                "activities": [
+                  "Shopping",
+                  "Street food",
+                  "People watching",
+                  "Local crafts"
+                ]
+              },
+              {
+                "id": "IND-BLR-010",
+                "name": "Bangalore Fort",
+                "category": "Historic Site",
+                "rating": 4.3,
+                "description": "Historic fort with remnants of Tipu Sultan's era",
+                "visit_duration": "1 hour",
+                "best_time_to_visit": "Morning",
+                "price_range": "$",
+                "location": {
+                  "lat": 12.9616,
+                  "lng": 77.5742,
+                  "address": "Krishna Rajendra Market Area"
+                },
+                "activities": [
+                  "Fort tour",
+                  "Historic viewing",
+                  "Photography",
+                  "Market visit"
+                ]
+              }
+            ],
+            "hotels": [
+              {
+                "id": "IND-BLR-H001",
+                "name": "The Oberoi Bengaluru",
+                "rating": 4.8,
+                "stars": 5,
+                "location": {
+                  "lat": 12.9716,
+                  "lng": 77.5946,
+                  "address": "37-39 MG Road, Central Bengaluru"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 20000,
+                    "peak": 30000,
+                    "off_peak": 15000
+                  },
+                  "deluxe": {
+                    "base": 30000,
+                    "peak": 40000,
+                    "off_peak": 25000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-BLR-003", "IND-BLR-005"]
+              },
+              {
+                "id": "IND-BLR-H002",
+                "name": "Taj West End",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 12.9987,
+                  "lng": 77.5925,
+                  "address": "Race Course Road, High Grounds"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 18000,
+                    "peak": 28000,
+                    "off_peak": 13000
+                  },
+                  "deluxe": {
+                    "base": 28000,
+                    "peak": 38000,
+                    "off_peak": 23000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-BLR-001", "IND-BLR-003"]
+              },
+              {
+                "id": "IND-BLR-H003",
+                "name": "ITC Gardenia",
+                "rating": 4.7,
+                "stars": 5,
+                "location": {
+                  "lat": 12.9716,
+                  "lng": 77.5946,
+                  "address": "Residency Road, Central Bengaluru"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 16000,
+                    "peak": 26000,
+                    "off_peak": 12000
+                  },
+                  "deluxe": {
+                    "base": 26000,
+                    "peak": 36000,
+                    "off_peak": 21000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-BLR-003", "IND-BLR-005"]
+              },
+              {
+                "id": "IND-BLR-H004",
+                "name": "The Leela Palace Bengaluru",
+                "rating": 4.6,
+                "stars": 5,
+                "location": {
+                  "lat": 12.9716,
+                  "lng": 77.5946,
+                  "address": "Old Airport Road, HAL 2nd Stage"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 15000,
+                    "peak": 25000,
+                    "off_peak": 11000
+                  },
+                  "deluxe": {
+                    "base": 25000,
+                    "peak": 35000,
+                    "off_peak": 20000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-BLR-004", "IND-BLR-008"]
+              },
+              {
+                "id": "IND-BLR-H005",
+                "name": "JW Marriott Bengaluru Juhu",
+                "rating": 4.5,
+                "stars": 4,
+                "location": {
+                  "lat": 12.9716,
+                  "lng": 77.5946,
+                  "address": "24/1 Vittal Mallya Road, Central Bengaluru"
+                },
+                "price_ranges": {
+                  "standard": {
+                    "base": 12000,
+                    "peak": 22000,
+                    "off_peak": 9000
+                  },
+                  "deluxe": {
+                    "base": 22000,
+                    "peak": 32000,
+                    "off_peak": 17000
+                  }
+                },
+                "amenities": [
+                  "Free WiFi",
+                  "Spa",
+                  "Indoor Pool",
+                  "Multiple Restaurants",
+                  "Fitness Center",
+                  "Business Center"
+                ],
+                "nearby_places": ["IND-BLR-005", "IND-BLR-009"]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+} 
