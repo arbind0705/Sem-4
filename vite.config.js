@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Use relative paths for assets
+  base: '/Sem-4/', // Use the repository name as the base URL for GitHub Pages
   root: 'src', // Set the root directory where Vite should look for files
   build: {
     outDir: '../dist', // Output directory after building the project
